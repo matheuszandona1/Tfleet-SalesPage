@@ -6,19 +6,19 @@
 			para encerrar seus vínculos quando necessário.
 		</h3>
 		<p class="default__desc">Para solicitar a exclusão dos seus dados, insira as informações abaixo.</p>
-		<form action="" class="contact__form">
+		<form action="" class="contact__form" method="POST">
 			<div class="form-gap">
 				<div class="input_wrap">
-					<input type="text" required />
-					<label><img src="./assets/person.svg" alt="" /> Nome*</label>
+					<input type="text" name="nome" id="nome" required />
+					<label for="nome"><img src="./assets/person.svg" alt="" /> Nome*</label>
 				</div>
 				<div class="input_wrap">
-					<input type="email" required />
-					<label><img src="./assets/mail.svg" alt="" /> E-mail*</label>
+					<input type="email" name="email" id="email" required />
+					<label for="email"><img src="./assets/mail.svg" alt="" /> E-mail*</label>
 				</div>
 				<div class="input_wrap">
-					<input type="tel" required />
-					<label><img src="./assets/cpf.svg" alt="" /> CPF*</label>
+					<input type="tel" name="cpf" id="cpf" required />
+					<label for="cpf"><img src="./assets/cpf.svg" alt="" /> CPF*</label>
 				</div>
 			</div>
 			<button type="submit" class="button">solicitar cancelamento</button>
