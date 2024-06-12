@@ -186,7 +186,7 @@ get_header("lp");
                         <img src="<?php echo get_stylesheet_directory_uri() ?>/res/img/assets/bars.svg" alt />
                     </div>
                     <p class="default__desc">
-                        Apresentamos resultados reais <b>+ 10 mil</b>
+                        Apresentamos resultados reais <b>+ 9 mil</b>
                         <span>OFICINAS CREDENCIADAS</span>
                     </p>
                 </div>
@@ -215,14 +215,17 @@ get_header("lp");
     </section>
     <section class="contact">
         <div class="contact__container">
-            <h3 class="default__title">
-                <b>Cancelamento do vínculo</b><br />
-                Usuários Auto Service Motors contam com facilidade e praticidade<br />
-                para encerrar seus vínculos quando necessário.
-            </h3>
-            <p class="default__desc">
-                Para solicitar a exclusão dos seus dados, insira as informações abaixo.
-            </p>
+            <div class="contact_content">
+                <h3 class="default__title">
+                    <b>Cancelamento do vínculo</b><br />
+                    Usuários Auto Service Motors contam com facilidade e praticidade
+                    para encerrar seus vínculos quando necessário.
+                </h3>
+                <p class="default__desc">
+                    Para solicitar a exclusão dos seus dados, insira as informações
+                    abaixo.
+                </p>
+            </div>
             <form class="contact__form">
                 <div class="form-gap">
                     <div class="input_wrap">
