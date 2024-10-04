@@ -4,6 +4,7 @@ config/*
 .vscode/
 .cache/
 venv/
+.DS_Store
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,python,visualstudiocode,vercel
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,python,visualstudiocode,vercel

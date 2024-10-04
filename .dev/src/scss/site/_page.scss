@@ -440,6 +440,8 @@
 		gap: 120px;
 		@include media(s) {
 			padding: 0 24px;
+			flex-direction: column;
+			gap: 40px;
 		}
 		.default__title {
 			color: $neutro-50;
@@ -502,7 +504,7 @@
 		}
 		@include l-border;
 		input {
-			width: 322px;
+			width: 100%;
 		}
 		.button {
 			border: none;
